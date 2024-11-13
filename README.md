@@ -5,5 +5,5 @@
 
 NOME                               |Contato
 -----------------------------------|----------------------------------------
-Kauan Santos Pedreira              |-> [https://github.com/JuliooCezar](https://linktr.ee/kauanpedreira)
+Kauan Santos Pedreira              |-> https://linktr.ee/kauanpedreira
 ----------------------------------------------------------------------------
