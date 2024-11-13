@@ -8,4 +8,4 @@ NOME                               |Contato
 Kauan Santos Pedreira              |-> https://linktr.ee/kauanpedreira
 ----------------------------------------------------------------------------
 
-**1.1 ODS Selecionada: 15 (Vida Terrestre)**
+**ODS Selecionada: 15 (Vida Terrestre)**
