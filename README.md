@@ -1,6 +1,7 @@
 # 🌳 **Coração da Mata**
 
 ## 1. Introdução
+
 **Nome do Projeto: Coração da Mata**
 
 NOME                               |Contato
@@ -12,6 +13,7 @@ Kauan Santos Pedreira              |-> https://linktr.ee/kauanpedreira
 
 ## 🌍 **ODS Selecionado ou Instituição Atendida**
 **ODS 15 - Vida Terrestre**  
+
 Este projeto aborda a preservação da biodiversidade terrestre, com foco nos animais em extinção e na flora brasileira, alinhado às metas da **ODS 15** da ONU.
 
 ---
@@ -52,7 +54,7 @@ Com um design visual envolvente e interativo, o projeto visa despertar o interes
 ### **2. Tecnologias Utilizadas**
 - **HTML5 e CSS3:** Estrutura e estilo das páginas.  
 - **JavaScript:** Funcionalidades interativas.  
-- **Git e GitHub:** Controle de versão e colaboração.  
+- **GitHub:** Controle de versão e colaboração.  
 
 ---
 
