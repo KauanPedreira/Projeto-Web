@@ -58,8 +58,7 @@ Com um design visual envolvente e interativo, o projeto visa despertar o interes
 
 
 ### **2. Tecnologias Utilizadas**
-- **HTML5 e CSS3:** Estrutura e estilo das páginas.  
-- **JavaScript:** Funcionalidades interativas.  
+- **HTML5 e CSS3:** Estrutura e estilo das páginas.    
 - **GitHub:** Controle de versão e colaboração.  
 
 ---
