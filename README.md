@@ -42,14 +42,14 @@ Com um design visual envolvente e interativo, o projeto visa despertar o interes
 - **Página Inicial:**  
   Breve introdução ao tema com destaques visuais e chamada para ações.  
 
-- **Seção Animais em Extinção:**  
-  Lista de espécies brasileiras em risco com imagens e informações detalhadas.  
+- **Seção Biomas Brasileiros:**  
+  A pessoa seleciona o bioma e descobre um catálogo de animais e plantas que estão em extinção.  
 
-- **Seção Flora Brasileira:**  
-  Informações sobre a vegetação nativa e espécies ameaçadas.  
+- **Seção Dados (Mapa de Extinção do Brasil)::**  
+  Dados para mostrar o mapa de extinção do Brasil.
 
-- **Seção ODS 15:**  
-  Explicação sobre os objetivos da ODS 15 e como estão relacionados ao Brasil.
+- **Seção Galeria de Imagens:**  
+  Galeria de imagens relacionadas ao tema.
 
 - **Seção Contato:**  
   Formulário para receber feedbacks, sugestões e parcerias.
