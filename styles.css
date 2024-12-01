@@ -1,0 +1,348 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #006400;
+}
+
+a:hover {
+    color: #228B22;
+}
+
+
+/* Cabeçalho */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./image/mata.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+.cta-button {
+    background-color: #006400;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #228B22;
+    transform: scale(1.05);
+}
+
+
+/* Navegação */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006400;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navigation .logo img {
+    height: 50px;
+}
+
+.navigation .menu {
+    display: flex;
+    list-style: none;
+}
+
+.navigation .menu li {
+    margin: 0 15px;
+}
+
+.navigation .menu li a {
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navigation .menu li a:hover {
+    color: #FFD700;
+}
+
+/* Seção Sobre */
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Seção Biomas */
+.biomes {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.biomes h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+.biomes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+ 
+    gap: 30px;
+    margin-top: 30px;
+    justify-items: center; 
+}
+
+@media (max-width: 480px) {
+    .biomes-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.biome {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 400px; 
+    height: 350px;
+}
+
+
+.biome-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    
+}
+
+.biome h3 {
+    font-size: 1.5rem;
+    color: #228B22;
+    margin: 10px 0;
+}
+
+.biome p {
+    font-size: 1rem;
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+.learn-more {
+    display: inline-block;
+    margin: 10px 0 20px;
+    color: #006400;
+    font-weight: bold;
+}
+
+.gallery {
+    background-color: #3e743e84;
+    padding: 50px 20px;
+    margin: 0 auto;
+    
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.gallery p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.dados {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.dados img {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dados h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+.dados-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.dados li {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    display: inline-block; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.dados-list li h3 {
+    font-size: 1.5rem;
+    color: #006400;
+    margin-bottom: 10px;
+}
+
+.dados-list li p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.dados-list li a {
+    color: #228B22;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.contact h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact p, ul{
+    text-align: center;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #033a03;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #228B22;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #006400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px
+    
+}
+
+footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: #FFD700;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
