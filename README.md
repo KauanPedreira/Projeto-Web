@@ -11,7 +11,7 @@ Kauan Santos Pedreira              |-> https://linktr.ee/kauanpedreira
 
 ---
 
-## **Link para o site:**
+## 🔎 **Link para o site:**
 
 https://kauanpedreira.github.io/Projeto-Web/
 
