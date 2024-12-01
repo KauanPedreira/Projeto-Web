@@ -70,8 +70,7 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 ```plaintext
 / - Raiz do Projeto
 │
-├── /assets/         # Contém imagens, ícones e arquivos de mídia
-├── /css/            # Arquivos de estilos CSS
-├── /js/             # Scripts JavaScript para funcionalidades
+├── /assets: image/  # Contém imagens, ícones e arquivos de mídia
+├── /style/          # Arquivos de estilos CSS
 ├── index.html       # Página inicial do site
 └── README.md        # Documentação do projeto
