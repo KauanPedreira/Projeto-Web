@@ -140,6 +140,10 @@ a:hover {
     justify-items: center; 
 }
 
+.biome:hover {
+    transform: translateY(-10px);
+}
+
 @media (max-width: 480px) {
     .biomes-grid {
         grid-template-columns: 1fr; 
