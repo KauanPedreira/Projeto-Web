@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Coração da Mata</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="./image/logo.png" alt="Logo Coração da Mata" />
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="form-section">
+            <h2>Painel Administrativo</h2>
+            <form id="admin-form">
+                <label for="nome">Nome do Usuário</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <button type="button" id="cadastrar">Cadastrar</button>
+                <button type="button" id="limpar-campos">Limpar</button>
+            </form>
+        </section>
+
+        <section class="lista-usuarios">
+            <h2>Usuários Cadastrados</h2>
+            <input type="text" id="pesquisa" placeholder="Pesquisar usuário...">
+            <ul id="lista"></ul>
+            <button type="button" id="limpar">Limpar</button>
+        </section>
+    </main>
+    
+    <script src="admin.js" defer></script>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Coração da Mata. Todos os direitos reservados.</p>
+            <ul class="social-media">
+                <li><a href="https://github.com/KauanPedreira" aria-label="Acesse nosso GitHub">Github</a></li>
+                <li><a href="https://linktr.ee/kauanpedreira" aria-label="Veja nosso Linktree">Linktr.ee</a></li>
+                <li><a href="https://www.linkedin.com/in/kauanpedreira/" aria-label="Nosso LinkedIn">Linkedin</a></li>
+                <li><a href="https://kauanpedreira.github.io/Curriculo/" aria-label="Currículo">Currículo</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/mata.jpg') center/cover;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2, .lista-usuarios h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"], 
+input[type="tel"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.lista-usuarios {
+    margin-top: 30px;
+}
+
+#pesquisa {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+}
+
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ecf0f1;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+#lista li div {
+    flex: 1;
+}
+
+#lista li button {
+    background-color: #e74c3c;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+#limpar-lista {
+    background-color: #e67e22;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#limpar-lista:hover {
+    background-color: #d35400;
+}
+
+
+footer {
+    background-color: #006400;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px
+    
+}
+
+footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: #006400;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
