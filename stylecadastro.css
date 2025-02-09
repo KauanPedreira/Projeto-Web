@@ -15,9 +15,9 @@ body {
 
 .navigation {
     display: flex;
-    justify-content: space-between; /* Distribui os itens */
-    align-items: center; /* Alinha verticalmente */
-    padding: px 10px; /* Espaçamento interno */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: px 10px; 
     color: white;
 }
 
