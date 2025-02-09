@@ -123,6 +123,7 @@ a:hover {
     padding: 50px 20px;
     background-color: #f0f0f0;
     text-align: center;
+    
 }
 
 .biomes h2 {
@@ -140,24 +141,25 @@ a:hover {
     justify-items: center; 
 }
 
-.biome:hover {
-    transform: translateY(-10px);
-}
-
 @media (max-width: 480px) {
     .biomes-grid {
         grid-template-columns: 1fr; 
     }
 }
 
+.biome:hover {
+    transform: translateY(-10px);
+}
+
 .biome {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: transform 0.3s ease;
     width: 400px; 
     height: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
