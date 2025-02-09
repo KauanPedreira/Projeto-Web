@@ -13,6 +13,34 @@ body {
     position: relative;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens */
+    align-items: center; /* Alinha verticalmente */
+    padding: px 10px; /* Espaçamento interno */
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .container {
     max-width: 400px;
     margin: 50px auto;
