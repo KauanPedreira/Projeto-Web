@@ -43,7 +43,7 @@ Com um design visual envolvente e interativo, o projeto visa despertar o interes
   Breve introdução ao tema com destaques visuais e chamada para ações.  
 
 - **Seção Biomas Brasileiros:**  
-  A pessoa seleciona o bioma e descobre um catálogo de animais e plantas que estão em extinção.  
+  A pessoa seleciona o bioma e descobre um catálogo de animais e plantas que estão em risco extinção.  
 
 - **Seção Dados (Mapa de Extinção do Brasil)::**  
   Dados para mostrar o mapa de extinção do Brasil.
