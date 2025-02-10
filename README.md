@@ -54,11 +54,22 @@ Com um design visual envolvente e interativo, o projeto visa despertar o interes
 - **Seção Contato:**  
   Formulário para receber feedbacks, sugestões e parcerias.
 
+
+2. Funcionalidades Implementadas
+
+Cadastro de usuários via cadastro.html, armazenando no Local Storage.
+
+Exibição da lista de usuários cadastrados em admin.html.
+
+Estilização responsiva com CSS.
+
+Exploração interativa dos biomas.
 ---
 
 
 ### **2. Tecnologias Utilizadas**
-- **HTML5 e CSS3:** Estrutura e estilo das páginas.    
+- **HTML5 e CSS3:** Estrutura e estilo das páginas.
+- JavaScript: Funcionalidades dinâmicas, armazenamento e interação do usuário.    
 - **GitHub:** Controle de versão e colaboração.  
 
 ---
@@ -69,7 +80,23 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 ```plaintext
 / - Raiz do Projeto
 │
-├── /assets: image/  # Contém imagens, ícones e arquivos de mídia
+├── /assets/image/biomas   # Contém imagens, ícones e arquivos de mídia
 ├── /style/          # Arquivos de estilos CSS
+│   ├── styles.css         # Estilo geral do site
+│   ├── stylecadastro.css  # Estilização do formulário de cadastro
+│   ├── stylelogin.css     # Estilização da tela de login
+│
 ├── index.html       # Página inicial do site
-└── README.md        # Documentação do projeto
+├── cadastro.html    # Formulário de cadastro de usuários
+├── login.html       # Página de login
+├── admin.html       # Página de administração (exibição dos usuários cadastrados)
+│
+├── admin.js         # Lógica para exibir usuários cadastrados
+├── amazonia.html    # Catálogo da fauna e flora da Amazônia
+├── atlantica.html   # Catálogo da fauna e flora da Mata Atlântica
+├── caatinga.html    # Catálogo da fauna e flora da Caatinga
+├── cerrado.html     # Catálogo da fauna e flora do Cerrado
+├── pampa.html       # Catálogo da fauna e flora do Pampa
+├── pantanal.html    # Catálogo da fauna e flora do Pantanal
+│
+├── README.md        # Documentação do projeto
