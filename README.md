@@ -80,7 +80,8 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 ```plaintext
 / - Raiz do Projeto
 │
-├── /assets/image/biomas   # Contém imagens, ícones e arquivos de mídia
+├── /assets/image   # Contém imagens, ícones e arquivos de mídia
+├── /assets/biomas...   # Contém imagens, ícones e arquivos de mídia
 ├── /style/          # Arquivos de estilos CSS
 │   ├── styles.css         # Estilo geral do site
 │   ├── stylecadastro.css  # Estilização do formulário de cadastro
